@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77612A3623E70DF300EFDD0C /* JobsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77612A3523E70DF300EFDD0C /* JobsTests.swift */; };
+		77612A3E23E70E1000EFDD0C /* APITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77612A3D23E70E1000EFDD0C /* APITest.swift */; };
 		778F749223E50B5A009BC964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778F749123E50B5A009BC964 /* AppDelegate.swift */; };
 		778F749423E50B5A009BC964 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778F749323E50B5A009BC964 /* SceneDelegate.swift */; };
 		778F749623E50B5A009BC964 /* JobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778F749523E50B5A009BC964 /* JobsViewController.swift */; };
@@ -29,7 +31,21 @@
 		778F74D823E6B1B1009BC964 /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778F74D723E6B1B1009BC964 /* UIView+Extention.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		77612A3823E70DF300EFDD0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 778F748623E50B5A009BC964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778F748D23E50B5A009BC964;
+			remoteInfo = Jobs;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		77612A3323E70DF300EFDD0C /* JobsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77612A3523E70DF300EFDD0C /* JobsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsTests.swift; sourceTree = "<group>"; };
+		77612A3723E70DF300EFDD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77612A3D23E70E1000EFDD0C /* APITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITest.swift; sourceTree = "<group>"; };
 		778F748E23E50B5A009BC964 /* Jobs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jobs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778F749123E50B5A009BC964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		778F749323E50B5A009BC964 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +71,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		77612A3023E70DF300EFDD0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		778F748B23E50B5A009BC964 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -65,10 +88,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77612A3423E70DF300EFDD0C /* JobsTests */ = {
+			isa = PBXGroup;
+			children = (
+				77612A3523E70DF300EFDD0C /* JobsTests.swift */,
+				77612A3D23E70E1000EFDD0C /* APITest.swift */,
+				77612A3723E70DF300EFDD0C /* Info.plist */,
+			);
+			path = JobsTests;
+			sourceTree = "<group>";
+		};
 		778F748523E50B5A009BC964 = {
 			isa = PBXGroup;
 			children = (
 				778F749023E50B5A009BC964 /* Jobs */,
+				77612A3423E70DF300EFDD0C /* JobsTests */,
 				778F748F23E50B5A009BC964 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				778F748E23E50B5A009BC964 /* Jobs.app */,
+				77612A3323E70DF300EFDD0C /* JobsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +203,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		77612A3223E70DF300EFDD0C /* JobsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77612A3C23E70DF300EFDD0C /* Build configuration list for PBXNativeTarget "JobsTests" */;
+			buildPhases = (
+				77612A2F23E70DF300EFDD0C /* Sources */,
+				77612A3023E70DF300EFDD0C /* Frameworks */,
+				77612A3123E70DF300EFDD0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77612A3923E70DF300EFDD0C /* PBXTargetDependency */,
+			);
+			name = JobsTests;
+			productName = JobsTests;
+			productReference = 77612A3323E70DF300EFDD0C /* JobsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		778F748D23E50B5A009BC964 /* Jobs */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 778F74A523E50B5D009BC964 /* Build configuration list for PBXNativeTarget "Jobs" */;
@@ -195,6 +248,10 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "prafull kumar";
 				TargetAttributes = {
+					77612A3223E70DF300EFDD0C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 778F748D23E50B5A009BC964;
+					};
 					778F748D23E50B5A009BC964 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -214,11 +271,19 @@
 			projectRoot = "";
 			targets = (
 				778F748D23E50B5A009BC964 /* Jobs */,
+				77612A3223E70DF300EFDD0C /* JobsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		77612A3123E70DF300EFDD0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		778F748C23E50B5A009BC964 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,6 +297,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		77612A2F23E70DF300EFDD0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77612A3E23E70E1000EFDD0C /* APITest.swift in Sources */,
+				77612A3623E70DF300EFDD0C /* JobsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		778F748A23E50B5A009BC964 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,6 +332,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		77612A3923E70DF300EFDD0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778F748D23E50B5A009BC964 /* Jobs */;
+			targetProxy = 77612A3823E70DF300EFDD0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		778F749723E50B5A009BC964 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -278,6 +360,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		77612A3A23E70DF300EFDD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JobsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = experimental.JobsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jobs.app/Jobs";
+			};
+			name = Debug;
+		};
+		77612A3B23E70DF300EFDD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JobsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = experimental.JobsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jobs.app/Jobs";
+			};
+			name = Release;
+		};
 		778F74A323E50B5D009BC964 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -429,6 +549,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		77612A3C23E70DF300EFDD0C /* Build configuration list for PBXNativeTarget "JobsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77612A3A23E70DF300EFDD0C /* Debug */,
+				77612A3B23E70DF300EFDD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		778F748923E50B5A009BC964 /* Build configuration list for PBXProject "Jobs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
