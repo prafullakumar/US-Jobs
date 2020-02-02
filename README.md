@@ -7,13 +7,13 @@ None
 **Networking:**
 Combine  with urlsession
 
-**DataBase**
+**DataBas:e**
 Core Data
 
-**Dark Mode**
+**Dark Mode:**
 Support
 
-**Dev Tool**
+**Dev Tool:**
 XCode Version 11.3.1 (11C504)
 
 **Orientation:**
@@ -27,7 +27,7 @@ US Justic Department
 **Pull to refresh:** YES
 
 
-ScreenShots:
+**ScreenShots:**
 
 https://drive.google.com/open?id=1dD8EqieWmJ604fbfzk0pTBis4x3BnVAg  <br />
 https://drive.google.com/open?id=1bv6y1LihZNBzaoe1qVqoJy5g0O2kIliM  <br />
