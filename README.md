@@ -13,6 +13,9 @@ Core Data
 **Dark Mode**
 Support
 
+**Dev Tool**
+XCode Version 11.3.1 (11C504)
+
 **Orientation:**
 Partial 
 
