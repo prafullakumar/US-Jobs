@@ -7,7 +7,7 @@ None
 **Networking:**
 Combine  with urlsession
 
-**DataBas:e**
+**DataBase:**
 Core Data
 
 **Dark Mode:**
@@ -40,5 +40,5 @@ https://drive.google.com/open?id=1cB1OJvCV4two_rsWzQddMzNPgv6acGuX  <br />
 : Onclick on any table view cell, shows job details  <br />
 
 
-**XC-Test**
+**XC-Test:**
   Added for API layer
